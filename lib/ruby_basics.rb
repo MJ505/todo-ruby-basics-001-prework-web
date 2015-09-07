@@ -26,6 +26,7 @@ phrase
 return "expert"
 end
 last_evaluated_value
-def pizza_party("cheese", "pepperoni")
+def pizza_party( choice1 = "cheese", choice2 = "pepperoni")
+  puts choice1, choice 2
  end
- pizza_party
+ pizza_party(choice1)
